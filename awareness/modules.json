@@ -1,0 +1,72 @@
+[
+ {
+  "category": "Phishing",
+  "title": "Phishing Awareness",
+  "what": "Deceptive messages that try to steal credentials or money.",
+  "why": "It is the top entry point for incidents.",
+  "warning_signs": "Urgency, look-alike domains, unexpected attachments/QR codes.",
+  "safe_practices": "Verify via a trusted channel; hover to inspect links.",
+  "if_it_happens": "Do not click; report to IT/security; change passwords if you entered them.",
+  "module_id": 1
+ },
+ {
+  "category": "Passwords",
+  "title": "Password Security",
+  "what": "Secrets that prove your identity.",
+  "why": "Reuse turns one breach into many.",
+  "warning_signs": "Reused or short passwords.",
+  "safe_practices": "Use a password manager and long passphrases.",
+  "if_it_happens": "Change the password and enable MFA.",
+  "module_id": 2
+ },
+ {
+  "category": "MFA",
+  "title": "MFA & Passkeys",
+  "what": "Extra proof of identity beyond a password; passkeys/WebAuthn resist phishing.",
+  "why": "Blocks most stolen-password attacks.",
+  "warning_signs": "Unexpected MFA prompts.",
+  "safe_practices": "Prefer app/passkey over SMS; never share codes.",
+  "if_it_happens": "Deny unexpected prompts and reset credentials.",
+  "module_id": 3
+ },
+ {
+  "category": "Social Engineering",
+  "title": "Social Engineering",
+  "what": "Manipulating people rather than systems.",
+  "why": "Attackers exploit trust and urgency.",
+  "warning_signs": "Pressure, secrecy, authority claims.",
+  "safe_practices": "Verify identities independently.",
+  "if_it_happens": "Stop, report, and document.",
+  "module_id": 4
+ },
+ {
+  "category": "Safe Browsing",
+  "title": "Safe Browsing",
+  "what": "Careful web use.",
+  "why": "Malicious sites imitate real ones.",
+  "warning_signs": "Typo domains, scareware pop-ups.",
+  "safe_practices": "Type known URLs; keep browsers updated.",
+  "if_it_happens": "Close the tab and run a trusted scan.",
+  "module_id": 5
+ },
+ {
+  "category": "Ransomware",
+  "title": "Ransomware Awareness",
+  "what": "Malware that disrupts access and may threaten data leaks (defensive overview).",
+  "why": "Causes downtime and data risk.",
+  "warning_signs": "Ransom notes, mass file renames.",
+  "safe_practices": "Backups, patching, least privilege, MFA, segmentation.",
+  "if_it_happens": "Disconnect from the network and call incident response.",
+  "module_id": 6
+ },
+ {
+  "category": "Incident Reporting",
+  "title": "Incident Reporting",
+  "what": "Telling security quickly when something looks wrong.",
+  "why": "Speed reduces damage.",
+  "warning_signs": "Odd logins, clicked lures.",
+  "safe_practices": "Know your reporting channel.",
+  "if_it_happens": "Report immediately with details; no blame.",
+  "module_id": 7
+ }
+]

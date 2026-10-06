@@ -1,0 +1,236 @@
+[
+ {
+  "id": 1,
+  "category": "Phishing",
+  "question": "You get an unexpected message urgently asking you to verify your password. Best action?",
+  "options": [
+   "Click the link now",
+   "Reply with your password",
+   "Verify through an official trusted channel",
+   "Forward your credentials"
+  ],
+  "answer": 2,
+  "why": "Urgency plus credential requests are classic phishing signs; use a channel you already trust."
+ },
+ {
+  "id": 2,
+  "category": "Phishing",
+  "question": "Which is a common phishing warning sign?",
+  "options": [
+   "Message from a known colleague, expected",
+   "Mismatched sender domain and urgent tone",
+   "Company newsletter you subscribed to",
+   "Calendar invite from your manager"
+  ],
+  "answer": 1,
+  "why": "Look-alike domains and pressure are red flags."
+ },
+ {
+  "id": 3,
+  "category": "Phishing",
+  "question": "An unexpected QR code in an email asks you to log in. You should:",
+  "options": [
+   "Scan and log in",
+   "Scan on a personal phone",
+   "Not scan; report it",
+   "Reply asking for details"
+  ],
+  "answer": 2,
+  "why": "QR codes hide the destination link; report instead."
+ },
+ {
+  "id": 4,
+  "category": "Passwords",
+  "question": "Which password approach is safest?",
+  "options": [
+   "One strong password everywhere",
+   "Unique long passphrases in a password manager",
+   "Birthdate plus a number",
+   "Sticky note on the monitor"
+  ],
+  "answer": 1,
+  "why": "Unique passwords limit the damage from one breach."
+ },
+ {
+  "id": 5,
+  "category": "Passwords",
+  "question": "Why is password reuse risky?",
+  "options": [
+   "It isn't",
+   "One breach exposes all accounts",
+   "It slows logins",
+   "It expires passwords"
+  ],
+  "answer": 1,
+  "why": "Credential stuffing reuses leaked passwords."
+ },
+ {
+  "id": 6,
+  "category": "MFA",
+  "question": "What does MFA add?",
+  "options": [
+   "A second proof of identity",
+   "A longer password",
+   "Faster login",
+   "Nothing"
+  ],
+  "answer": 0,
+  "why": "A stolen password alone is no longer enough."
+ },
+ {
+  "id": 7,
+  "category": "MFA",
+  "question": "Someone asks you to read out your MFA code. You should:",
+  "options": [
+   "Share it, they are IT",
+   "Never share it",
+   "Share half",
+   "Share by email"
+  ],
+  "answer": 1,
+  "why": "Codes are secrets; real IT never asks for them."
+ },
+ {
+  "id": 8,
+  "category": "Social Engineering",
+  "question": "A caller claiming to be an executive demands an urgent gift-card purchase. This is:",
+  "options": [
+   "Normal",
+   "Likely social engineering",
+   "A bonus",
+   "An audit"
+  ],
+  "answer": 1,
+  "why": "Impersonation plus urgency; verify via known contact details."
+ },
+ {
+  "id": 9,
+  "category": "Social Engineering",
+  "question": "Best defense against pretexting?",
+  "options": [
+   "Verify identity independently",
+   "Be polite and comply",
+   "Ignore policy",
+   "Share less on Fridays"
+  ],
+  "answer": 0,
+  "why": "Independent verification breaks the pretext."
+ },
+ {
+  "id": 10,
+  "category": "Safe Browsing",
+  "question": "Before entering a password, check:",
+  "options": [
+   "The padlock only",
+   "The full domain spelling in the address bar",
+   "Page colors",
+   "Page speed"
+  ],
+  "answer": 1,
+  "why": "A padlock does not mean the site is trustworthy."
+ },
+ {
+  "id": 11,
+  "category": "Safe Browsing",
+  "question": "A pop-up says your device is infected, call now. You should:",
+  "options": [
+   "Call",
+   "Close the tab, run a trusted scan",
+   "Download the tool",
+   "Enter card details"
+  ],
+  "answer": 1,
+  "why": "Scareware creates fear; close it and use official tools."
+ },
+ {
+  "id": 12,
+  "category": "Ransomware",
+  "question": "Best protection against ransomware data loss?",
+  "options": [
+   "Offline, tested backups",
+   "Paying quickly",
+   "Disabling updates",
+   "Sharing admin rights"
+  ],
+  "answer": 0,
+  "why": "Backups allow recovery without paying."
+ },
+ {
+  "id": 13,
+  "category": "Ransomware",
+  "question": "You see a ransom note on your screen. First step?",
+  "options": [
+   "Disconnect from network and report to IT/security",
+   "Pay",
+   "Delete files",
+   "Ignore"
+  ],
+  "answer": 0,
+  "why": "Containment and reporting first; do not negotiate alone."
+ },
+ {
+  "id": 14,
+  "category": "Privacy",
+  "question": "Sharing sensitive data over public chat is:",
+  "options": [
+   "Fine",
+   "Risky; use approved secure channels",
+   "Encrypted always",
+   "Required"
+  ],
+  "answer": 1,
+  "why": "Minimize and protect personal data."
+ },
+ {
+  "id": 15,
+  "category": "Wi-Fi",
+  "question": "On public Wi-Fi, the safer choice is:",
+  "options": [
+   "Use a trusted VPN/mobile hotspot for sensitive work",
+   "Log in to banking freely",
+   "Disable updates",
+   "Share files openly"
+  ],
+  "answer": 0,
+  "why": "Public networks can be monitored or spoofed."
+ },
+ {
+  "id": 16,
+  "category": "Mobile Security",
+  "question": "Which improves mobile security?",
+  "options": [
+   "Install apps from unknown sites",
+   "Keep OS updated and use official stores",
+   "Disable lock screen",
+   "Root the phone"
+  ],
+  "answer": 1,
+  "why": "Updates and trusted stores reduce risk."
+ },
+ {
+  "id": 17,
+  "category": "Incident Reporting",
+  "question": "You clicked a suspicious link. What now?",
+  "options": [
+   "Say nothing",
+   "Report it promptly to IT/security",
+   "Delete browser",
+   "Wait a week"
+  ],
+  "answer": 1,
+  "why": "Fast reporting limits impact; it is not punishment."
+ },
+ {
+  "id": 18,
+  "category": "Incident Reporting",
+  "question": "An IOC match in a tool means:",
+  "options": [
+   "Confirmed breach",
+   "A lead needing investigation",
+   "Nothing",
+   "Delete the server"
+  ],
+  "answer": 1,
+  "why": "IOC match is not confirmed compromise."
+ }
+]
